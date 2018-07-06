@@ -1,0 +1,22 @@
+{
+  "name": "dev-prerender",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "-",
+  "scripts": {
+    "test": "-"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHBStudio/DEV-prerender.git"
+  },
+  "keywords": [
+    "-"
+  ],
+  "author": "chb-studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CHBStudio/DEV-prerender/issues"
+  },
+  "homepage": "https://github.com/CHBStudio/DEV-prerender#readme"
+}
