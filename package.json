@@ -4,7 +4,8 @@
   "description": "-",
   "main": "-",
   "scripts": {
-    "test": "-"
+    "start": "forever start ./src/index.js",
+    "stop": "forever stop ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/CHBStudio/DEV-prerender/issues"
   },
-  "homepage": "https://github.com/CHBStudio/DEV-prerender#readme"
+  "homepage": "https://github.com/CHBStudio/DEV-prerender#readme",
+  "dependencies": {
+    "prerender": "^5.4.2"
+  },
+  "devDependencies": {
+    "forever": "^0.15.3"
+  }
 }
