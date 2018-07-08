@@ -9,3 +9,9 @@ sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable
 sudo apt-get update
 sudo apt-get install google-chrome-stable
 
+#service
+sudo echo "#!/bin/bash
+cd /opt/DEV-prerender
+npm run start" > /etc/init.d/local.autostart
+sudo chmod +x /etc/init.d/local.autostart
+sudo update-rc.d local.autostart defaults 80
